@@ -62,10 +62,14 @@ import java.util.Scanner;
     static double lerDouble(Scanner scanner, String mensagem) {
         while (true) {
             System.out.print(mensagem);
+
             if (scanner.hasNextDouble()) {
                 double valor = scanner.nextDouble();
                 scanner.nextLine();
-                    return valor;
+                return valor;
+            } else {
+                System.out.println("Entrada inválida! Digite um número.");
+                scanner.nextLine();
             }
         }
     }
