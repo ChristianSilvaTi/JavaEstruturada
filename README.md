@@ -14,23 +14,39 @@ Este repositório reúne uma coleção de sistemas baseados em console desenvolv
 * **Editor de Texto Simples:** Ferramenta para manipulação e leitura de fluxo de caracteres direto no terminal.
 
 ---
-Conceitos Técnicos Aplicados
+# 🛠️ Conceitos Técnicos Aplicados
 
-Os projetos deste repositório foram desenvolvidos utilizando apenas os recursos nativos da linguagem Java (OpenJDK), com foco na prática da lógica de programação e da programação estruturada, sem o uso de frameworks externos.
+Os projetos deste repositório foram desenvolvidos utilizando apenas os recursos nativos da linguagem **Java**, com foco na prática da lógica de programação e da programação estruturada.
 
-Durante o desenvolvimento foram aplicados os seguintes conceitos:
+## Modularização com Métodos Estáticos (`static`)
+Organização do código em métodos reutilizáveis e independentes, mantendo o método `main` responsável apenas pelo fluxo principal da aplicação.
 
-Modularização com Métodos Estáticos (static): Organização do código em métodos reutilizáveis e independentes, mantendo o método main responsável apenas pelo fluxo principal da aplicação.
-Estruturas Condicionais: Utilização de if, else e switch-case para controle de fluxo, menus interativos e tomada de decisões.
-Estruturas de Repetição: Uso de for, while e do-while para percorrer coleções, processar dados e controlar a execução contínua dos sistemas.
-Vetores e Matrizes: Manipulação de arrays unidimensionais e bidimensionais para armazenamento e processamento de informações.
-Manipulação de Strings: Emprego de métodos como equalsIgnoreCase(), contains(), trim(), replace(), split(), toLowerCase(), toUpperCase(), charAt() e toCharArray() para tratamento e validação de textos.
-Leitura e Escrita de Arquivos: Persistência de dados utilizando BufferedReader, FileReader, BufferedWriter e FileWriter, permitindo importar, exportar e registrar informações em arquivos de texto.
-Tratamento de Exceções: Utilização de blocos try-catch para lidar com erros de entrada e operações de leitura/escrita de arquivos, aumentando a robustez das aplicações.
-Validação de Entrada de Dados: Implementação de métodos de leitura segura utilizando Scanner, hasNextInt() e hasNextDouble(), prevenindo erros de execução causados por entradas inválidas.
-Processamento de Dados: Implementação de algoritmos para pesquisa, cadastro, atualização, cálculos, contagens, ordenação lógica e geração de relatórios em diferentes contextos.
-Desenvolvimento de Aplicações em Console: Construção de sistemas completos baseados em menus interativos, priorizando organização, reutilização de código e boas práticas da programação estruturada.
----
+##  Estruturas Condicionais
+Utilização de `if`, `else` e `switch-case` para controle de fluxo, menus interativos e tomada de decisões.
+
+##  Estruturas de Repetição
+Uso de `for`, `while` e `do-while` para percorrer coleções, processar dados e controlar a execução contínua dos sistemas.
+
+##  Vetores e Matrizes
+Manipulação de arrays unidimensionais e bidimensionais para armazenamento e processamento de informações.
+
+## Manipulação de Strings
+Emprego de métodos como `equalsIgnoreCase()`, `contains()`, `trim()`, `replace()`, `split()`, `toLowerCase()`, `toUpperCase()`, `charAt()` e `toCharArray()` para tratamento e validação de textos.
+
+##  Leitura e Escrita de Arquivos
+Persistência de dados utilizando `BufferedReader`, `FileReader`, `BufferedWriter` e `FileWriter`, permitindo importar, exportar e registrar informações em arquivos de texto.
+
+##  Tratamento de Exceções
+Utilização de blocos `try-catch` para lidar com erros de entrada e operações de leitura/escrita de arquivos, aumentando a robustez das aplicações.
+
+##  Validação de Entrada de Dados
+Implementação de métodos de leitura segura utilizando `Scanner`, `hasNextInt()` e `hasNextDouble()`, prevenindo erros de execução causados por entradas inválidas.
+
+##  Processamento de Dados
+Implementação de algoritmos para pesquisa, cadastro, atualização, cálculos, contagens e geração de relatórios em diferentes contextos.
+
+##  Desenvolvimento de Aplicações em Console
+Construção de sistemas completos baseados em menus interativos, priorizando organização, reutilização de código e boas práticas da programação estruturada.
 
 ##  Como Executar os Sistemas
 
@@ -42,5 +58,5 @@ Desenvolvimento de Aplicações em Console: Construção de sistemas completos b
 
 ---
 
-## 🏷️ Tags / Tópicos do Repositório
+## Tags / Tópicos do Repositório
 `java` • `logic-programming` • `algorithms` • `core-java` • `console-application` • `programming-concepts`
