@@ -14,19 +14,22 @@ Este repositório reúne uma coleção de sistemas baseados em console desenvolv
 * **Editor de Texto Simples:** Ferramenta para manipulação e leitura de fluxo de caracteres direto no terminal.
 
 ---
+Conceitos Técnicos Aplicados
 
-## ️ Conceitos Técnicos Aplicados
+Os projetos deste repositório foram desenvolvidos utilizando apenas os recursos nativos da linguagem Java (OpenJDK), com foco na prática da lógica de programação e da programação estruturada, sem o uso de frameworks externos.
 
-O projeto foi construído sem o uso de frameworks externos, focando puramente nos recursos nativos da linguagem Java (OpenJDK 26):
+Durante o desenvolvimento foram aplicados os seguintes conceitos:
 
-* **Modularização com Métodos Estáticos (`static`):** Organização do código em blocos lógicos isolados e reutilizáveis, garantindo que o método `main` atue estritamente como o maestro/fluxo principal do sistema.
-* **Persistência de Dados em Arquivo:** Escrita e leitura em arquivos de texto locais utilizando as classes estruturadas `BufferedWriter`, `FileWriter` e tratamento robusto de exceções com `IOException`.
-* **Estruturas Condicionais Avançadas:** Uso estratégico de `if/else` encadeados e seletores múltiplos `switch-case` para controle de menus e fluxos de decisão.
-* **Estruturas de Repetição:** Controle de loops iterativos utilizando `for` (para varredura de dados conhecidos) e `while` / `do-while` (para menus e validações por tempo indeterminado).
-* **Vetores e Matrizes (Arrays Multidimensionais):** Manipulação de estruturas de dados unidimensionais e bidimensionais para representação de layouts (como as poltronas do cinema) e tabelas de informações (como nome e telefone na agenda).
-* **Manipulação e Comparação de Strings:** Uso intensivo de métodos nativos da classe `String` como `.equalsIgnoreCase()`, `.trim()`, `.contains()`, `.toLowerCase()` e `.toUpperCase()` para tratamento e validação de textos digitados pelo usuário.
-* **Leitura Segura de Dados (Garantia de Tipos):** Implementação de métodos de captura robustos usando `Scanner` e métodos como `.hasNextInt()` e `.hasNextDouble()`. O sistema impede travamentos (*crashes*) se o usuário digitar uma letra onde o programa esperava um número inteiro ou decimal (`double`), além de bloquear campos em branco ou números negativos.
-
+Modularização com Métodos Estáticos (static): Organização do código em métodos reutilizáveis e independentes, mantendo o método main responsável apenas pelo fluxo principal da aplicação.
+Estruturas Condicionais: Utilização de if, else e switch-case para controle de fluxo, menus interativos e tomada de decisões.
+Estruturas de Repetição: Uso de for, while e do-while para percorrer coleções, processar dados e controlar a execução contínua dos sistemas.
+Vetores e Matrizes: Manipulação de arrays unidimensionais e bidimensionais para armazenamento e processamento de informações.
+Manipulação de Strings: Emprego de métodos como equalsIgnoreCase(), contains(), trim(), replace(), split(), toLowerCase(), toUpperCase(), charAt() e toCharArray() para tratamento e validação de textos.
+Leitura e Escrita de Arquivos: Persistência de dados utilizando BufferedReader, FileReader, BufferedWriter e FileWriter, permitindo importar, exportar e registrar informações em arquivos de texto.
+Tratamento de Exceções: Utilização de blocos try-catch para lidar com erros de entrada e operações de leitura/escrita de arquivos, aumentando a robustez das aplicações.
+Validação de Entrada de Dados: Implementação de métodos de leitura segura utilizando Scanner, hasNextInt() e hasNextDouble(), prevenindo erros de execução causados por entradas inválidas.
+Processamento de Dados: Implementação de algoritmos para pesquisa, cadastro, atualização, cálculos, contagens, ordenação lógica e geração de relatórios em diferentes contextos.
+Desenvolvimento de Aplicações em Console: Construção de sistemas completos baseados em menus interativos, priorizando organização, reutilização de código e boas práticas da programação estruturada.
 ---
 
 ##  Como Executar os Sistemas
